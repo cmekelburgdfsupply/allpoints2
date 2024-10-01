@@ -1,0 +1,83 @@
+
+/* Logo */
+#logo a {background-image:url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/56db38cd-27c6-42f9-8627-cb72faa8cfc3.png') !important; 
+	min-height:0 !important; height: 40px !important; background-repeat:no-repeat !important; background-size:contain !important; background-position:center !important; vertical-align: middle !important;}
+* html #logo a {/* IE6 png Support */
+	background-image: none !important;
+}
+
+/* Backgrounds */
+html
+{background-image:none !important;background-color:transparent !important;}
+#logo {
+	background-color:#fefefe !important;
+	background-size:contain !important !important;
+	background-repeat:no-repeat !important !important;
+	height:40px !important;
+	text-align:center !important;
+	background-position:center !important;
+    border-radius:20px !important;
+    padding:30px !important;
+    width:30% !important;
+    margin:auto !important;
+    
+}
+#container{background:#003D77 !important;
+padding:30px !important;
+box-shadow: 0px 0px 20px #3d3d3d !important;
+margin:auto !important;
+border-radius:20px !important;
+margin:auto !important;
+position:absolute !important;
+top: 20% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+.wufoo input.text, .wufoo textarea.textarea{background-color:#ffffff !important; border-radius:5px !important; padding:5px !important;}
+.wufoo .focused{background-color:transparent !important;}
+.wufoo .instruct{background-color:transparent !important;}
+
+/* Borders */
+#container{border:0 solid #ffffff !important;}
+.wufoo .info{border-bottom:1px dotted #ffffff !important;}
+.wufoo .instruct{border:1px solid #ffffff !important;}
+
+/* Typography */
+.wufoo .info h2{font-size:160% !important;font-family:Arial, Helvetica, sans-serif !important;color:#FFFFFF !important; font-weight:600 !important;}
+.wufoo .info div{font-size:95% !important;font-family:Arial, Helvetica, sans-serif !important;color:#ffffff}
+.wufoo .section h3{font-size:120% !important;font-family:Arial, Helvetica, sans-serif !important;color:#ffffff}
+.wufoo .section div{font-size:85% !important;font-family:Arial, Helvetica, sans-serif !important;color:#ffffff}
+.wufoo label.desc, .wufoo legend.desc{font-size:110% !important;font-family:Arial, Helvetica, sans-serif !important;color:#ffffff}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Arial, Helvetica, sans-serif !important;color:#ffffff}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100% !important;font-family:Arial, Helvetica, sans-serif !important;color:#3d3d3d}
+.wufoo label.choice{color:#ffffff}
+.wufoo .instruct{font-size:80% !important;font-family:Arial, Helvetica, sans-serif !important;color:#3d3d3d !important;}
+.field.text { font-size:100% !important !important;}
+
+.symbol {color:#fefefe !important;}
+
+.buttons .submit {
+    color: #FFFFFF !important;
+    background-color: #003D77 !important;
+   border: 1px solid #ffffff !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    display: inline-block !important;
+    margin-bottom: 0 !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    white-space: nowrap !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+}
+
+.buttons .submit:hover{
+background-color:#ffffff !important;
+color:#003d77 !important;
+transition: box-shadow .2s ease, background-color .2s ease !important;
+
+}
