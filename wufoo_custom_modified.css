@@ -1,3 +1,9 @@
+form.wufoo * {
+    all: unset;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Logo */
 form.wufoo #logo a {background-image:url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/56db38cd-27c6-42f9-8627-cb72faa8cfc3.png'); 
