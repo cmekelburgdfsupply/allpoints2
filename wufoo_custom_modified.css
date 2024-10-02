@@ -33,7 +33,7 @@ top: 20% !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
 }
-form.wufoo form.wufoo input.text, form.wufoo form.wufoo textarea.textarea .wufoo{background-color:#ffffff !important; border-radius:5px !important; padding:5px !important;}
+form.wufoo input.text, form.wufoo textarea.textarea .wufoo{background-color:#ffffff !important; border-radius:5px !important; padding:5px !important;}
 form.wufoo .focused .wufoo {background-color:transparent !important;}
 form.wufoo .instruct .wufoo{background-color:transparent !important;}
 
