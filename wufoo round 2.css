@@ -31,10 +31,10 @@ output {
 
 div#container {
 	text-align: left;
-	background: #003d77;
+	background: #003d77 !important;
 	border: none;
-	-o-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
-	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+	-o-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px !important;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px !important;
 border-radius:10px;
 }
 
@@ -51,27 +51,23 @@ form.wufoo {
 }
 
 h1#logo {
-	margin: auto;
-	padding: 30px;
-	min-height: 0;
-	background-color: #ffffff;
-	text-decoration: none;
-	background-size:contain;
-	height:25%;
-	width:30%;
-	border-radius:10px;
-}
-
-h1#logo {
-	height: 40px;
-	display: block;
+	margin: auto !important;
+	padding: 30px !important;
+	min-height: 40px !important;
+	background-color: #ffffff !important;
+	text-decoration: none !important;
+	background-size:contain !important;
+	width:30% !important;
+	height: 40px !important;
+	display: block !important;
 	background: url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/ecfaa056-e33b-43d2-81ea-ab522564cbff.png') !important;
 	background-position:center !important;
 	background-size:contain !important;
 	background-repeat:no-repeat !important;
-	overflow: hidden;
-	border-radius:10px;
+	overflow: hidden !important;
+	border-radius:10px !important;
 }
+
 
 * html #logo a {
 	_background-image: none;
