@@ -29,7 +29,7 @@ output {
 	display: block
 }
 
-#container {
+div#container {
 	text-align: left;
 	background: #003d77;
 	border: none;
@@ -38,7 +38,7 @@ output {
 border-radius:10px;
 }
 
-#container {
+div#container {
 	margin: auto;
 	width: 640px;
 	padding-top:30px;
@@ -50,7 +50,7 @@ form.wufoo {
 	position: relative
 }
 
-#logo {
+h1#logo {
 	margin: auto;
 	padding: 30px;
 	min-height: 0;
@@ -62,7 +62,7 @@ form.wufoo {
 	border-radius:10px;
 }
 
-#logo a {
+h1#logo {
 	height: 40px;
 	display: block;
 	background: url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/ecfaa056-e33b-43d2-81ea-ab522564cbff.png') !important;
