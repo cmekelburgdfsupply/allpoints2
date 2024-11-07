@@ -1,3 +1,15 @@
 #public .noI 
 {background-color:#3d3d3d !important;
 }
+
+h1#logo {
+  height: 40px;
+	display: block;
+	background: url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/ecfaa056-e33b-43d2-81ea-ab522564cbff.png') !important;
+	background-position:center !important;
+	background-size:contain !important;
+	background-repeat:no-repeat !important;
+	overflow: hidden;
+	border-radius:10px;
+  
+}
