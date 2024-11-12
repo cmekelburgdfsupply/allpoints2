@@ -1,19 +1,193 @@
-#public .noI 
-{background-color:#3d3d3d !important;
+/* Logo */
+#logo a {
+    min-height: 0 !important;
+    height: 40px !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: center !important;
+    vertical-align: middle !important;
+}
+* html #logo a { /* IE6 png Support */
+    background-image: url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/a5083c57-d809-4751-9596-dbb1c2c4056b.png') !important;
+}
+
+#logo {
+    background-color: #fefefe !important;
+}
+
+/* Backgrounds */
+html {
+    background-image: none !important;
+    background-color: transparent !important;
+    color:#FFFFFF !important;
 }
 
 h1#logo {
-    height: 40px !important;
-    display: block !important;
-    background: url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/ecfaa056-e33b-43d2-81ea-ab522564cbff.png') !important;
-    background-position: center !important;
+    background-color: #fefefe !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    overflow: hidden !important;
-    border-radius: 10px !important;
+    height: 40px !important;
+    text-align: center !important;
+    background-position: center !important;
+    border-radius: 20px !important;
+    padding: 30px !important;
+    width: 30% !important;
+    margin: auto !important;
+    background-image: url('https://image.connect.allpointsfps.com/lib/fe37157175640478701177/m/1/a5083c57-d809-4751-9596-dbb1c2c4056b.png') !important;
+}
+
+#container.ltr {
+    background: #003D77 !important;
+    padding: 30px !important;
+    box-shadow: 0px 0px 20px #3d3d3d !important;
+    margin: auto !important;
+    border-radius: 20px !important;
+    position: absolute !important;
+    top: 20% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+}
+
+.wufoo input.text, .wufoo textarea.textarea {
+    background-color: #ffffff !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+}
+.wufoo .focused {
+    background-color: transparent !important;
+}
+.wufoo .instruct {
+    background-color: transparent !important;
+}
+
+.powertiny {
+    display:none !important;
 }
 
 
-form#form87.wufoo.topLabel.page
-{ background-color: #003D77 !important;
+}
+
+/* Borders */
+#container {
+    border: 0 solid #ffffff !important;
+}
+.wufoo .info {
+    border-bottom: 1px dotted #ffffff !important;
+}
+.wufoo .instruct {
+    border: 1px solid #ffffff !important;
+}
+
+/* Typography */
+
+.info {
+color:#FFFFFF !important;
+
+}
+
+header#header.info{
+color:#FFFFFF !important;
+display:none !important;
+
+}
+div#container.ltr {
+    color:#FFFFFF !important;
+}
+
+h2.0 {
+    color:#FFFFFF !important;
+}
+
+div.0{
+    color:#ffffff !important;
+}
+.wufoo .topLabel .page {
+    color:#FFFFFF !important;
+}
+
+label#title1.desc {
+    color:#FFFFFF !important;
+}
+
+label#title3.desc {
+    color:#FFFFFF !important;
+}
+
+label#title4.desc {
+    color:#FFFFFF !important;
+}
+.wufoo .info h2 {
+    font-size: 160% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
+}
+.wufoo .info div {
+    font-size: 95% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #ffffff !important;
+}
+.wufoo .section h3 {
+    font-size: 120% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #ffffff !important;
+}
+.wufoo .section div {
+    font-size: 85% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #ffffff !important;
+}
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 110% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #ffffff !important;
+}
+.wufoo li div, .wufoo li div label, .wufoo li span label {
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #ffffff !important;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice {
+    font-size: 100% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #3d3d3d !important;
+}
+.wufoo label.choice {
+    color: #ffffff !important;
+}
+.wufoo .instruct {
+    font-size: 80% !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: #3d3d3d !important;
+}
+.field.text {
+    font-size: 100% !important;
+}
+
+.symbol {
+    color: #fefefe !important;
+}
+
+.buttons .submit {
+    color: #FFFFFF !important;
+    background-color: #003D77 !important;
+    border: 1px solid #ffffff !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    padding: 8px 16px !important;
+    display: inline-block !important;
+    margin-bottom: 0 !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    touch-action: manipulation !important;
+    cursor: pointer !important;
+    white-space: nowrap !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+}
+
+.buttons .submit:hover {
+    background-color: #ffffff !important;
+    color: #003d77 !important;
+    transition: box-shadow .2s ease, background-color .2s ease !important;
 }
